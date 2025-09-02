@@ -1,11 +1,11 @@
-FROM nginx:alpine
+# Use the official Racket image
+FROM racket/racket:latest
 
-# Copy your static HTML into nginx's default public directory
-COPY index.html /usr/share/nginx/html/
+WORKDIR /app
 
-# Expose nginx default port
-EXPOSE 80
+COPY server.rkt .
+COPY public ./public
 
-# Start nginx
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 8000
 
+CMD ["racket", "server.rkt"]
