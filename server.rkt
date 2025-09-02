@@ -35,8 +35,10 @@
       (response/full 404 #"Not Found" (current-seconds) #"text/plain" '()
                      (list #"File not found"))))
 
+(printf "Starting server on port ~a~n" PORT)
 (serve/servlet my-handler
                #:port PORT
                #:listen-ip #f
                #:servlet-path "/"
-               #:servlet-regexp #rx"")
+               #:servlet-regexp #rx""
+               #:launch-browser? #f)
