@@ -6,6 +6,6 @@ WORKDIR /app
 COPY server.rkt .
 COPY public ./public
 
-EXPOSE 8000
+EXPOSE 8005
 
 CMD ["racket", "server.rkt"]

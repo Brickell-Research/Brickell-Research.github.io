@@ -12,7 +12,7 @@
 ;; Serve ./public (with index.html as default)
 (define-runtime-path PUBLIC_DIR "public")
 
-(define PORT 8000)
+(define PORT 8005)
 
 ;; Simple request handler that serves static files
 (define (my-handler req)
