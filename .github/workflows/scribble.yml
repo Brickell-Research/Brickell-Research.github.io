@@ -26,9 +26,6 @@ jobs:
         with:
           version: '8.17'
 
-      - name: Install Scribble
-        run: raco pkg install scribble
-
       - name: Build Documentation
         run: |
           cd docs
