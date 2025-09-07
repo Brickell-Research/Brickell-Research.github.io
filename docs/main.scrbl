@@ -11,4 +11,4 @@
 
 @include-section["projects.scrbl"]
 
-@centered{@smaller{@elem[#:style miami-cyan-italic]{Website powered by Racket's Scribble documentation system.}}}
+@centered{@smaller{@elem[#:style miami-cyan-italic]{Website powered by Racket's Scribble}}}
