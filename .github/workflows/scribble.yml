@@ -29,7 +29,10 @@ jobs:
       - name: Build Documentation
         run: |
           cd docs
-          raco scribble --htmls --dest ../_site main.scrbl
+          raco scribble --html main.scrbl
+          mkdir -p ../_site
+          cp main.html ../_site/index.html
+          cp *.css *.js *.png *.svg ../_site/ 2>/dev/null || true
 
       - name: Setup Pages
         id: pages
