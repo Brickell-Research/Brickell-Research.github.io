@@ -11,6 +11,8 @@
 
 @include-section["projects.scrbl"]
 
+@include-section["resources.scrbl"]
+
 @include-section["contact.scrbl"]
 
 @centered{@smaller{@elem[#:style miami-cyan-italic]{Website powered by @hyperlink["https://docs.racket-lang.org/scribble/"]{Racket's Scribble}}}}
