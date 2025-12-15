@@ -7,5 +7,5 @@
 @elem[#:style miami-cyan]{We are currently working on the following projects:}
 
 @itemlist[
- @item{@hyperlink["https://github.com/Brickell-Research/caffeine_lang"]{Caffeine}: A compiler for generating reliability artifacts from service expectation definitions.}
+ @item{@hyperlink["https://caffeine-lang.run/"]{Caffeine}: A compiler for generating reliability artifacts from service expectation definitions.}
  ]
