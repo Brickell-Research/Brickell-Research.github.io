@@ -4,8 +4,25 @@
 
 @title{Gleam Resources}
 
-@elem[#:style miami-cyan]{A curated collection of interesting Gleam resources:}
+@elem[#:style miami-cyan]{A curated collection of interesting Gleam resources.}
+
+@section{Official}
+
+@itemlist[
+ @item{@hyperlink["https://gleam.run/"]{Gleam}: The official Gleam programming language website.}
+ @item{@hyperlink["https://tour.gleam.run/everything/"]{The Gleam Language Tour - Everything}: A comprehensive single-page reference of the entire Gleam language.}
+ ]
+
+@section{Podcasts}
 
 @itemlist[
  @item{@hyperlink["https://www.beamrad.io/97"]{Beam Radio Episode 97: Gleam! A Chat with Peter Saxton}: A podcast episode exploring the Gleam programming language, its design philosophy, and its place within the BEAM ecosystem.}
  ]
+
+@section{Videos}
+
+@elem[#:style miami-cyan]{Coming soon.}
+
+@section{Blogs}
+
+@elem[#:style miami-cyan]{Coming soon.}
