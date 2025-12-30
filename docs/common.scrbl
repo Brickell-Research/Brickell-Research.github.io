@@ -7,5 +7,5 @@
 @(define miami-cyan (make-style #f (list (attributes (list (cons 'style "color: #00CED1;"))))))
 @(define miami-cyan-italic (make-style #f (list (attributes (list (cons 'style "color: #00CED1; font-style: italic;"))))))
 @(define logo-style (make-style #f (list (attributes (list (cons 'style "float: right; margin: 10px;"))))))
-@(define title-with-css (make-style #f (list (attributes (list (cons 'style "color: #FF1493;"))) (make-css-addition "miami.css"))))
+@(define title-with-css (make-style #f (list (attributes (list (cons 'style "color: #FF1493;"))) (make-css-addition "miami.css") (head-extra '(link ((rel "icon") (type "image/png") (href "brickell_research_logo.png")))))))
 @(define footer-style (make-style #f (list (alt-tag "footer") (attributes (list (cons 'style "text-align: center; margin-top: 2rem; color: #00CED1; font-style: italic;"))))))
