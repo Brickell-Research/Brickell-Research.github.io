@@ -7,6 +7,6 @@
 @(define miami-cyan (make-style #f (list (attributes (list (cons 'style "color: #00CED1;"))))))
 @(define miami-cyan-italic (make-style #f (list (attributes (list (cons 'style "color: #00CED1; font-style: italic;"))))))
 @(define logo-style (make-style #f (list (attributes (list (cons 'style "float: right; margin: 10px;"))))))
-@(define title-with-css (make-style #f (list (attributes (list (cons 'style "color: #FF1493;"))) (make-css-addition "miami.css") (head-extra '(link ((rel "icon") (type "image/png") (href "brickell_research_logo.png")))))))
+@(define title-with-css (make-style #f (list (attributes (list (cons 'style "color: #FF1493;"))) (make-css-addition "miami.css") (head-extra '(link ((rel "icon") (type "image/png") (href "brickell_research_logo.png")))) (head-extra '(script ((async "") (src "https://plausible.io/js/pa-XfWZJWhSNFPcmrC751VFJ.js")))) (head-extra '(script "window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()")))))
 @(define footer-style (make-style #f (list (alt-tag "footer") (attributes (list (cons 'style "text-align: center; margin-top: 2rem; color: #00CED1; font-style: italic;"))))))
 @(define tagline-style (make-style #f (list (attributes (list (cons 'style "color: #00CED1; font-size: 1.3em; font-style: italic; display: block; margin-bottom: 1.5em;"))))))
