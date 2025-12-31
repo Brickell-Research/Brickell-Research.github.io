@@ -7,6 +7,8 @@
 
 @title[#:style title-with-css]{Brickell Research}
 
+@elem[#:style tagline-style]{Systems thinking, without the thinking.}
+
 @include-section["about.scrbl"]
 
 @include-section["projects.scrbl"]
