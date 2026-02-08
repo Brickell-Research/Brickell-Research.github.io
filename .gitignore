@@ -2,16 +2,13 @@
 _site/
 *.html
 
-# Jekyll
-.jekyll-cache/
+# Racket compiled files
+compiled/
+*.zo
+*.dep
 
 # macOS
 .DS_Store
 
 # Logs
 *.log
-
-# Racket compiled files (platform-specific)
-compiled/
-*.zo
-*.dep

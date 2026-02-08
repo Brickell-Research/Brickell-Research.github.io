@@ -1,4 +1,4 @@
-name: Build and Deploy Scribble Documentation
+name: Build and Deploy Pollen Site
 
 on:
   push:
@@ -26,13 +26,17 @@ jobs:
         with:
           version: '8.17'
 
-      - name: Build Documentation
+      - name: Install Pollen
+        run: raco pkg install --auto --no-docs pollen
+
+      - name: Build Site
         run: |
           cd docs
-          raco scribble --html main.scrbl
+          raco pollen render
           mkdir -p ../_site
-          cp main.html ../_site/index.html
-          cp *.css *.js *.png *.svg ../_site/ 2>/dev/null || true
+          cp *.html ../_site/
+          cp *.css *.png *.svg ../_site/ 2>/dev/null || true
+          cp ../CNAME ../_site/
 
       - name: Setup Pages
         id: pages

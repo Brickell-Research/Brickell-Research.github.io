@@ -1,0 +1,80 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background-color: #000000;
+  color: #E0FFFF;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+a { color: #00CED1; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1, h2, h3, h4, h5, h6 { color: #FF1493; }
+
+h1 { font-size: 2em; margin-bottom: 0; }
+h1 a { color: #FF1493; }
+h1 a:hover { text-decoration: none; }
+
+h2 { font-size: 1.4em; margin-bottom: 0.8em; }
+
+header { margin-bottom: 1rem; }
+
+.logo {
+  float: right;
+  width: 128px;
+  margin: 0 0 10px 10px;
+}
+
+.tagline {
+  color: #00CED1;
+  font-size: 1.3em;
+  font-style: italic;
+  margin-bottom: 1.5em;
+}
+
+nav {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #00CED1;
+}
+nav a { margin-right: 1.5rem; font-size: 1.1em; }
+
+main p { margin-bottom: 1em; }
+
+.cyan { color: #00CED1; }
+.pink { color: #FF1493; }
+
+ul { margin-left: 1.5em; margin-bottom: 1em; }
+li { margin-bottom: 0.8em; }
+
+.manifesto-comment {
+  font-family: 'Monaco', 'Courier New', monospace;
+  font-size: 0.85em;
+  font-style: italic;
+  margin-top: -0.8em;
+  margin-bottom: 1.5em;
+}
+
+.manifesto-comment a {
+  color: #6A737D;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.manifesto-comment a:hover {
+  color: #8B949E;
+}
+
+footer {
+  border-top: 1px solid #00CED1;
+  margin-top: 3em;
+  padding-top: 1em;
+  text-align: center;
+  font-style: italic;
+  color: #00CED1;
+  font-size: 0.9em;
+}
