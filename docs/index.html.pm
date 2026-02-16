@@ -12,6 +12,7 @@ We ❤️ building with ◊link["https://gleam.run/"]{Gleam} and are finding way
 
 ◊ul{
 ◊li{◊link["https://caffeine-lang.run/"]{Caffeine}: a programming language for generating reliability artifacts from service expectation definitions.◊br{}◊em{Status: Active Development}}
+◊li{◊link["https://github.com/Brickell-Research/barista"]{Barista}: an AI agent for the exploration and discovery of third-party service guarantees.◊br{}◊em{Status: Initial Ideation}}
 }
 
 ◊h2{Speaking}
