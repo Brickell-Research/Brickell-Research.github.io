@@ -22,7 +22,7 @@
     ◊(->html doc)
   </main>
   <footer>
-    <p>Proud Gleamlins . Website powered by <a href="https://docs.racket-lang.org/pollen/">Pollen</a></p>
+    <p>Website powered by <a href="https://docs.racket-lang.org/pollen/">Pollen</a> · Proud Gleamlins</p>
   </footer>
 </body>
 </html>
