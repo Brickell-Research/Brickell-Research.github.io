@@ -1,0 +1,27 @@
+docs/pollen.rkt
+  f95a49b0cc6cb2f1 29-32,36-52
+docs/index.html.pm
+  f95a49b0cc6cb2f1 9,16,22,27-28
+docs/styles.css
+  f95a49b0cc6cb2f1 25,27,53,58-126
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.6",
+  "base_commit_sha": "9b20cad3cff36bd48ac8f07f95a50ffa687a6575",
+  "prompts": {
+    "f95a49b0cc6cb2f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "67da6ef8-8099-4176-95ec-407f487dec75",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 128,
+      "total_deletions": 42,
+      "accepted_lines": 113,
+      "overriden_lines": 0
+    }
+  }
+}
