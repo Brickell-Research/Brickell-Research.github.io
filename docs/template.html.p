@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>◊(let ([title (select-from-metas 'title metas)]) (if title (format "~a · Brickell Research" title) "Brickell Research"))</title>
   <link rel="icon" type="image/png" href="brickell_research_logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,7 +22,7 @@
     ◊(->html doc)
   </main>
   <footer>
-    <p>Website powered by <a href="https://docs.racket-lang.org/pollen/">Pollen</a></p>
+    <p>Proud Gleamlins . Website powered by <a href="https://docs.racket-lang.org/pollen/">Pollen</a></p>
   </footer>
 </body>
 </html>
