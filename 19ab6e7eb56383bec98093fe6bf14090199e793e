@@ -1,0 +1,27 @@
+docs/manifesto.html.pm
+  f95a49b0cc6cb2f1 5,9
+docs/template.html.p
+  f95a49b0cc6cb2f1 8-35,44
+docs/styles.css
+  f95a49b0cc6cb2f1 15-17,50,88,96,141-150
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.6",
+  "base_commit_sha": "19ab6e7eb56383bec98093fe6bf14090199e793e",
+  "prompts": {
+    "f95a49b0cc6cb2f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "67da6ef8-8099-4176-95ec-407f487dec75",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 47,
+      "total_deletions": 6,
+      "accepted_lines": 47,
+      "overriden_lines": 0
+    }
+  }
+}
