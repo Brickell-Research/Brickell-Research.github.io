@@ -7,7 +7,10 @@
 ◊h2{Projects}
 
 ◊ul{
-◊li{◊link["https://caffeine-lang.run/"]{Caffeine}: a programming language for generating reliability artifacts (i.e. executable Terraform for SLOs) from service expectation definitions. Grounded in assume/guarantee contracts and a hint of category theory, Caffeine helps developers and AI agents become system thinkers, asserting reasonable construction at design time and in production. Written in Gleam ❤️.◊br{}◊em{Status: Active Development}}
+  ◊li{
+    ◊link["https://caffeine-lang.run/"]{Caffeine}: a programming language for generating reliability artifacts (i.e. executable Terraform for SLOs) from service expectation definitions. Grounded in assume/guarantee contracts and a hint of category theory, Caffeine helps developers and AI agents become system thinkers, asserting reasonable construction at design time and in production. Written in Gleam ❤️.
+    ◊pink{Status:} ◊em{Active Development}
+  }
 }
 
 ◊h2{Speaking}
