@@ -1,0 +1,25 @@
+docs/template.html.p
+  f95a49b0cc6cb2f1 9-11
+docs/styles.css
+  f95a49b0cc6cb2f1 18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.6",
+  "base_commit_sha": "e1d3baa2d6aaaeefd24a0e8ed1980e42854be112",
+  "prompts": {
+    "f95a49b0cc6cb2f1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "67da6ef8-8099-4176-95ec-407f487dec75",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 7,
+      "total_deletions": 1,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}
