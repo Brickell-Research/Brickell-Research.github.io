@@ -2,11 +2,11 @@
 
 ◊(define-meta title "Manifesto")
 
-◊h4{Our Thesis}
+◊h2{Our Thesis}
 
 ◊cyan{Reliability is a problem of expression. The right language changes what's possible by bridging operational, cultural, and technical boundaries.}
 
-◊h4{Philosophy}
+◊h2{Philosophy}
 
 ◊cyan{(1)} ◊pink{Codify Success First} Without a measure, success is undecidable. If an expectation isn't formal enough to be verified, it isn't an expectation, it's hope. Express it once, formally. Let everything else follow. The boundary of your expression is the boundary of your reliability.
 

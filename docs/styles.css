@@ -12,6 +12,9 @@ body {
 
 a { color: #00CED1; text-decoration: none; }
 a:hover { text-decoration: underline; }
+a:focus-visible { outline: 2px solid #00CED1; outline-offset: 2px; border-radius: 2px; }
+
+::selection { background: #FF1493; color: #000000; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #FF1493;
@@ -44,7 +47,7 @@ main p { margin-bottom: 1em; }
 
 .cyan { color: #00CED1; }
 .pink { color: #FF1493; }
-.small { font-size: 0.8em; color: #6a7580; }
+.small { font-size: 0.8em; color: #757f8a; }
 .blurb { font-size: 0.88em; color: #8892a0; }
 
 ul { margin-left: 1.5em; margin-bottom: 1em; }
@@ -82,7 +85,7 @@ li { margin-bottom: 0.8em; }
 
 
 .manifesto-comment {
-  font-family: 'Monaco', 'Courier New', monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-size: 0.85em;
   font-style: italic;
   margin-top: -0.8em;
@@ -90,7 +93,7 @@ li { margin-bottom: 0.8em; }
 }
 
 .manifesto-comment a {
-  color: #6A737D;
+  color: #7d8793;
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -134,4 +137,14 @@ footer {
   font-style: italic;
   color: #00CED1;
   font-size: 0.9em;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  body { padding: 1.2rem; }
+  h1 { font-size: 1.5em; }
+  .logo { width: 80px; }
+  .tagline { font-size: 1.1em; }
+  .project { padding: 1rem; }
+  .project-logo { width: 40px; height: 40px; }
 }
