@@ -30,6 +30,10 @@
 (define (small . text)
   `(span ((class "small")) ,@text))
 
+;; Talk blurb
+(define (blurb . text)
+  `(span ((class "blurb")) ,@text))
+
 ;; Link helper
 (define (link url . text)
   `(a ((href ,url)) ,@text))
@@ -41,12 +45,3 @@
      (h3 (a ((href ,url)) ,name))
      (p ((class "project-desc")) ,@description)
      (p ((class "project-status")) (span ((class "pink")) "Status: ") (em ,status) " · Written in " (a ((href "https://gleam.run/")) "Gleam"))))
-
-;; Talk entry
-(define (talk event-url event-name date slides-url . title)
-  `(div ((class "talk"))
-     (div ((class "talk-header"))
-       (a ((href ,event-url) (class "talk-venue")) ,event-name)
-       (span ((class "talk-date")) ,date))
-     (p ((class "talk-title")) ,@title)
-     (p ((class "talk-media")) (a ((href ,slides-url)) "Slides \u2197"))))

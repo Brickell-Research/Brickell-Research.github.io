@@ -2,7 +2,7 @@
 
 body {
   background-color: #000000;
-  color: #E0FFFF;
+  color: #c8d4dc;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   line-height: 1.6;
   max-width: 42rem;
@@ -39,18 +39,13 @@ header { margin-bottom: 1.2rem; }
   margin-bottom: 1.5em;
 }
 
-nav {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #00CED1;
-}
-nav a { margin-right: 1.5rem; font-size: 1.1em; }
 
 main p { margin-bottom: 1em; }
 
 .cyan { color: #00CED1; }
 .pink { color: #FF1493; }
 .small { font-size: 0.8em; color: #6a7580; }
+.blurb { font-size: 0.88em; color: #8892a0; }
 
 ul { margin-left: 1.5em; margin-bottom: 1em; }
 li { margin-bottom: 0.8em; }
@@ -85,44 +80,6 @@ li { margin-bottom: 0.8em; }
 
 .project-status em { color: #00CED1; }
 
-.talk {
-  padding: 0.8rem 0;
-  border-bottom: 1px solid #1a1a2e;
-}
-
-.talk:last-of-type { border-bottom: none; }
-
-.talk-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 0.1rem;
-}
-
-.talk-venue {
-  font-family: 'JetBrains Mono', monospace;
-  font-weight: 600;
-  font-size: 0.95em;
-  color: #E0FFFF !important;
-}
-
-.talk-venue:hover { color: #00CED1 !important; }
-
-.talk-date {
-  font-size: 0.85em;
-  color: #6a7580;
-}
-
-.talk-title {
-  font-style: italic;
-  margin-bottom: 0.1rem;
-}
-
-.talk-media { margin-bottom: 0; }
-.talk-media a { font-size: 0.85em; color: #6a7580; }
-.talk-media a:hover { color: #00CED1; }
 
 .manifesto-comment {
   font-family: 'Monaco', 'Courier New', monospace;
@@ -142,8 +99,35 @@ li { margin-bottom: 0.8em; }
   color: #8B949E;
 }
 
+/* Subtle entrance animation */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+header, main > div > *, footer {
+  animation: fadeUp 0.4s ease both;
+}
+
+header { animation-delay: 0s; }
+main > div > *:nth-child(1) { animation-delay: 0.04s; }
+main > div > *:nth-child(2) { animation-delay: 0.08s; }
+main > div > *:nth-child(3) { animation-delay: 0.12s; }
+main > div > *:nth-child(4) { animation-delay: 0.16s; }
+main > div > *:nth-child(5) { animation-delay: 0.2s; }
+main > div > *:nth-child(6) { animation-delay: 0.24s; }
+main > div > *:nth-child(7) { animation-delay: 0.28s; }
+main > div > *:nth-child(8) { animation-delay: 0.32s; }
+main > div > *:nth-child(9) { animation-delay: 0.36s; }
+main > div > *:nth-child(10) { animation-delay: 0.4s; }
+footer { animation-delay: 0.45s; }
+
+@media (prefers-reduced-motion: reduce) {
+  header, main > div > *, footer { animation: none; }
+}
+
 footer {
-  border-top: 1px solid #00CED1;
+  border-top: 1px solid #1a1a2e;
   margin-top: 3em;
   padding-top: 1em;
   text-align: center;

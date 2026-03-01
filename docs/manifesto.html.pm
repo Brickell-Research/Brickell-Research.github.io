@@ -2,6 +2,8 @@
 
 ◊(define-meta title "Manifesto")
 
+◊h4{Our Thesis}
+
 ◊cyan{Reliability is a problem of expression. The right language changes what's possible by bridging operational, cultural, and technical boundaries.}
 
 ◊h4{Philosophy}
