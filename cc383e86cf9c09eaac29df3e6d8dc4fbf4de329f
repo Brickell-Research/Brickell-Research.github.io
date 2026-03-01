@@ -1,0 +1,23 @@
+docs/index.html.pm
+  ac6ebc14fb37066f 23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.6",
+  "base_commit_sha": "cc383e86cf9c09eaac29df3e6d8dc4fbf4de329f",
+  "prompts": {
+    "ac6ebc14fb37066f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6393d12c-b795-48f0-b289-0b94bba865db",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "robertDurst <me@robdurst.com>",
+      "messages": [],
+      "total_additions": 5,
+      "total_deletions": 5,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
