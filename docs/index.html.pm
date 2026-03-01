@@ -12,17 +12,17 @@ We ❤️ building with ◊link["https://gleam.run/"]{Gleam} and are finding way
 
 ◊ul{
 ◊li{◊link["https://caffeine-lang.run/"]{Caffeine}: a programming language for generating reliability artifacts from service expectation definitions.◊br{}◊em{Status: Active Development}}
-◊li{◊link["https://github.com/Brickell-Research/barista"]{Barista}: an AI agent for the exploration and discovery of third-party service guarantees.◊br{}◊em{Status: Initial Ideation}}
+◊li{◊link["https://github.com/Brickell-Research/barista"]{Barista}: an AI agent for the discovery of third-party service guarantees to maintain a public Caffeine repository.◊br{}◊em{Status: Initial Ideation}}
 }
 
 ◊h2{Speaking}
 
-◊cyan{Upcoming talks and presentations:}
+◊cyan{Talks and presentations:}
 
 ◊ul{
-◊li{◊link["https://www-old.cs.utah.edu/plt/"]{University of Utah PLT Department Lecture}◊br{}◊pink{Title:} ◊em{10,000 Lines Later: When a Tool Became a Compiler}◊br{}February 12, 2026 | Salt Lake City, Utah, USA 🇺🇸}
-
-◊li{◊link["https://gleamgathering.com/"]{Gleam Gathering '26}◊br{}◊pink{Title:} ◊em{10,000 Lines Later: When a Tool Became a Compiler (and I Became a Gleamlin)}◊br{}February 21, 2026 | Bristol, UK 🇬🇧}
+◊li{◊link["https://www.usenix.org/conference/srecon25emea/program"]{SRECon EMEA '25 - Lightning Talks}◊br{}◊pink{Title:} ◊em{Mama Look, I Compiled SLOs!}◊br{}October 8, 2025 | Dublin, Ireland 🇮🇪◊br{}◊pink{Media:} ◊link["slides/srecon-emea-25.pdf"]{Slides}}
+◊li{◊link["https://www-old.cs.utah.edu/plt/"]{University of Utah PLT Department Lecture}◊br{}◊pink{Title:} ◊em{10,000 Lines Later: When a Tool Became a Compiler}◊br{}February 12, 2026 | Salt Lake City, Utah, USA 🇺🇸◊br{}◊pink{Media:} ◊link["slides/u-of-u-plt-lecture-26.pdf"]{Slides}}
+◊li{◊link["https://gleamgathering.com/"]{Gleam Gathering '26}◊br{}◊pink{Title:} ◊em{10,000 Lines Later: When a Tool Became a Compiler (and I Became a Gleamlin)}◊br{}February 21, 2026 | Bristol, UK 🇬🇧◊br{}◊pink{Media:} ◊link["slides/gleam-gathering-26.pdf"]{Slides}}
 }
 
 ◊h2{Contact}
