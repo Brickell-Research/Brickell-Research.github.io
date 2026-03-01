@@ -36,6 +36,7 @@ jobs:
           mkdir -p ../_site
           cp *.html ../_site/
           cp *.css *.png *.svg ../_site/ 2>/dev/null || true
+          cp -r slides ../_site/ 2>/dev/null || true
           cp ../CNAME ../_site/
 
       - name: Setup Pages
