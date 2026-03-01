@@ -17,21 +17,21 @@
 
 ◊ul{
   ◊li{
-    ◊link["https://www.usenix.org/conference/srecon25emea/program"]{SRECon EMEA '25 - Lightning Talks}
+    ◊em{Mama Look, I Compiled SLOs!}
     October 8, 2025 | Dublin, Ireland 🇮🇪
-    ◊pink{Title:} ◊em{Mama Look, I Compiled SLOs!}
+    ◊pink{Event:} ◊link["https://www.usenix.org/conference/srecon25emea/program"]{SRECon EMEA '25 - Lightning Talks}
     ◊pink{Media:} ◊link["slides/srecon-emea-25.pdf"]{Slides}
   }
   ◊li{
-    ◊link["https://www-old.cs.utah.edu/plt/"]{University of Utah PLT Department Lecture}
+    ◊em{10,000 Lines Later: When a Tool Became a Compiler}
     February 12, 2026 | Salt Lake City, Utah, USA 🇺🇸
-    ◊pink{Title:} ◊em{10,000 Lines Later: When a Tool Became a Compiler}
+    ◊pink{Event:} ◊link["https://www-old.cs.utah.edu/plt/"]{University of Utah PLT Department Lecture}
     ◊pink{Media:} ◊link["slides/u-of-u-plt-lecture-26.pdf"]{Slides}
   }
   ◊li{
-    ◊link["https://gleamgathering.com/"]{Gleam Gathering '26}
+    ◊em{10,000 Lines Later: When a Tool Became a Compiler (and I Became a Gleamlin)}    
     February 21, 2026 | Bristol, UK 🇬🇧
-    ◊pink{Title:} ◊em{10,000 Lines Later: When a Tool Became a Compiler (and I Became a Gleamlin)}
+    ◊pink{Event:} ◊link["https://gleamgathering.com/"]{Gleam Gathering '26}
     ◊pink{Media:} ◊link["slides/gleam-gathering-26.pdf"]{Slides}
   }
 }
