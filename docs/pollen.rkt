@@ -39,9 +39,9 @@
   `(a ((href ,url)) ,@text))
 
 ;; Project card
-(define (project url name status img . description)
+(define (project url name status img lang lang-url . description)
   `(div ((class "project"))
      (img ((src ,img) (alt ,name) (class "project-logo")))
      (h3 (a ((href ,url)) ,name))
      (p ((class "project-desc")) ,@description)
-     (p ((class "project-status")) (span ((class "pink")) "Status: ") (em ,status) " · Written in " (a ((href "https://gleam.run/")) "Gleam"))))
+     (p ((class "project-status")) (span ((class "pink")) "Status: ") (em ,status) " · Written in " (a ((href ,lang-url)) ,lang))))

@@ -8,7 +8,9 @@ Founded by ◊link["https://www.linkedin.com/in/robertdurst/"]{Rob Durst} in 202
 
 ◊h2{Projects}
 
-◊project["https://caffeine-lang.run/" "Caffeine" "Active Development" "https://caffeine-lang.run/images/temp_caffeine_icon.png"]{A programming language for generating reliability artifacts from service expectation definitions. Grounded in assume/guarantee contracts, Caffeine helps developers and AI agents assert reasonable system construction at design time ◊em{and} in production.}
+◊project["https://caffeine-lang.run/" "Caffeine" "Active Development" "https://caffeine-lang.run/images/temp_caffeine_icon.png" "Gleam" "https://gleam.run/"]{A programming language for generating reliability artifacts from service expectation definitions. Grounded in assume/guarantee contracts, Caffeine helps developers and AI agents assert reasonable system construction at design time ◊em{and} in production.}
+
+◊project["https://github.com/Brickell-Research/manatee" "Manatee" "Active Development" "temp_manatee_logo.png" "Ruby" "https://www.ruby-lang.org/"]{A minimal agent harness for small local models targeting Mac's Apple Silicon chips. An exploration of what minimally viable autonomous software engineering could mean for a consumer grade home lab.}
 
 ◊h2{Speaking}
 
