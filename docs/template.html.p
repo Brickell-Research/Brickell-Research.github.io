@@ -41,8 +41,8 @@
 </head>
 <body>
   <header>
-    <a href="index.html"><img src="brickell_research_logo.png" alt="Brickell Research" class="logo"></a>
-    <h1><a href="index.html">Brickell Research</a></h1>
+    <a href="/"><img src="brickell_research_logo.png" alt="Brickell Research" class="logo"></a>
+    <h1><a href="/">Brickell Research</a></h1>
     <p class="tagline">Systems thinking, without the thinking.</p>
     ◊(if (select-from-metas 'title metas) "" "<p class=\"manifesto-comment\"><a href=\"manifesto.html\"># our manifesto</a></p>")
   </header>
