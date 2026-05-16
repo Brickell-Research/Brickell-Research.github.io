@@ -84,6 +84,29 @@ li { margin-bottom: 0.8em; }
 .project-status em { color: #00CED1; }
 
 
+.status-embed {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(calc(100vw - 2rem), 900px);
+  margin: 1.5rem 0;
+  border: 1px solid #1a1a2e;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #0a0a14;
+}
+
+.status-embed iframe {
+  display: block;
+  width: 100%;
+  height: 800px;
+  border: 0;
+}
+
+@media (max-width: 600px) {
+  .status-embed iframe { height: 600px; }
+}
+
 .manifesto-comment {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.85em;

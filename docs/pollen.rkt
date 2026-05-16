@@ -45,3 +45,10 @@
      (h3 (a ((href ,url)) ,name))
      (p ((class "project-desc")) ,@description)
      (p ((class "project-status")) (span ((class "pink")) "Status: ") (em ,status) " · Written in " (a ((href ,lang-url)) ,lang))))
+
+;; Datadog dashboard embed
+(define (datadog-embed src)
+  `(div ((class "status-embed"))
+     (iframe ((src ,src)
+              (title "Brickell Research status dashboard")
+              (loading "lazy")))))
