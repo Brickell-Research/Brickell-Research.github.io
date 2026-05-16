@@ -2,8 +2,8 @@
 
 ◊(define-meta title "Status")
 
-◊h2{System Status}
+◊cyan{Live SLOs for our projects, defined in ◊link["https://caffeine-lang.run/"]{Caffeine} (◊link["https://github.com/Brickell-Research/slos"]{source}) and rendered by Datadog.}
 
-◊cyan{We dogfood ◊link["https://caffeine-lang.run/"]{Caffeine} on our own infrastructure. The dashboard below is rendered from SLO definitions written in Caffeine and shipped to Datadog.}
+◊small{Monitored: ◊link["https://brickellresearch.org/"]{brickellresearch.org} · ◊link["https://caffeine-lang.run/"]{caffeine-lang.run} · ◊link["https://dawnpass.brickellresearch.org/"]{dawnpass.brickellresearch.org}}
 
-<iframe src="https://p.datadoghq.com/sb/embed/5132f4c8-409d-11ee-9683-da7ad0900002-679fca999eae93e17c4c020056700d2e" title="Dashboard Name" width="800" height="800"></iframe>
+◊datadog-embed["https://p.datadoghq.com/sb/embed/5132f4c8-409d-11ee-9683-da7ad0900002-679fca999eae93e17c4c020056700d2e"]
