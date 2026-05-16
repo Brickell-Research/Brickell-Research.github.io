@@ -1,0 +1,25 @@
+docs/status.html.pm
+  s_bfdb8bd8479370::t_a9d3f985008d3a 1-9
+docs/pollen.rkt
+  s_bfdb8bd8479370::t_0902c5ffd78646 48-54
+docs/styles.css
+  s_bfdb8bd8479370::t_ad3b123e158b95 87-109
+docs/index.ptree
+  s_bfdb8bd8479370::t_f75124a71d0e6c 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "08d0a2d4510d39e453438250f7cac8ea3b615bc4",
+  "prompts": {},
+  "sessions": {
+    "s_bfdb8bd8479370": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0d740932-fd0e-46a6-8c4b-8278d962db43",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "robertDurst <me@robdurst.com>"
+    }
+  }
+}
