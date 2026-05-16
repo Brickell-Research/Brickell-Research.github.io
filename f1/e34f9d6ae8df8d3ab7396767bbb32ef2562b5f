@@ -1,0 +1,26 @@
+docs/index.html.pm
+  s_bfdb8bd8479370::t_6061968b56b00e 11
+docs/status.html.pm
+  h_55b93de7ce5e50 9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "f1e34f9d6ae8df8d3ab7396767bbb32ef2562b5f",
+  "prompts": {},
+  "humans": {
+    "h_55b93de7ce5e50": {
+      "author": "robertDurst <me@robdurst.com>"
+    }
+  },
+  "sessions": {
+    "s_bfdb8bd8479370": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0d740932-fd0e-46a6-8c4b-8278d962db43",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "robertDurst <me@robdurst.com>"
+    }
+  }
+}
