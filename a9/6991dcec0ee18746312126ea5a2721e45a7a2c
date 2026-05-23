@@ -1,0 +1,19 @@
+docs/index.html.pm
+  s_30384179c4cd54::t_c0a7202b8efd9f 32
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.11",
+  "base_commit_sha": "a96991dcec0ee18746312126ea5a2721e45a7a2c",
+  "prompts": {},
+  "sessions": {
+    "s_30384179c4cd54": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8041e3a1-997b-4559-a1e4-8ff269c7745a",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "robertDurst <me@robdurst.com>"
+    }
+  }
+}
