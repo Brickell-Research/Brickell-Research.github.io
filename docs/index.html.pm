@@ -29,7 +29,7 @@ Founded by ◊link["https://www.linkedin.com/in/robertdurst/"]{Rob Durst} in 202
     ◊em{10,000 Lines Later: When a Tool Became a Compiler (and I Became a Gleamlin)}
     ◊small{February 21, 2026 | Bristol, UK 🇬🇧}
     ◊pink{Event:} ◊link["https://gleamgathering.com/"]{Gleam Gathering '26}
-    ◊pink{Media:} ◊link["slides/gleam-gathering-26.pdf"]{Slides}
+    ◊pink{Media:} ◊link["slides/gleam-gathering-26.pdf"]{Slides}, ◊link["https://www.youtube.com/watch?v=wVQLEAHrwrI"]{Video}
   }
 }
 
