@@ -37,6 +37,14 @@ jobs:
           cp *.html ../_site/
           cp *.css *.png *.svg ../_site/ 2>/dev/null || true
           cp -r slides ../_site/ 2>/dev/null || true
+          # Notes: html + any image/video assets dropped alongside entries
+          mkdir -p ../_site/notes
+          cp notes/*.html ../_site/notes/ 2>/dev/null || true
+          find notes -mindepth 1 -type f \
+            \( -name '*.jpg' -o -name '*.jpeg' -o -name '*.png' \
+            -o -name '*.gif' -o -name '*.webp' -o -name '*.svg' \
+            -o -name '*.mp4' -o -name '*.webm' \) \
+            -exec cp --parents {} ../_site/ \; 2>/dev/null || true
           cp ../CNAME ../_site/
 
       - name: Setup Pages

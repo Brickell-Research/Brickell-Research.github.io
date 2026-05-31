@@ -33,18 +33,18 @@
     "logo": "https://brickellresearch.org/brickell_research_logo.png"
   }
   </script>
-  <link rel="icon" type="image/png" href="brickell_research_logo.png">
+  <link rel="icon" type="image/png" href="/brickell_research_logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/styles.css">
 </head>
-<body>
+<body class="◊(or (select-from-metas 'body-class metas) "")">
   <header>
-    <a href="/"><img src="brickell_research_logo.png" alt="Brickell Research" class="logo"></a>
+    <a href="/"><img src="/brickell_research_logo.png" alt="Brickell Research" class="logo"></a>
     <h1><a href="/">Brickell Research</a></h1>
     <p class="tagline">Systems thinking, without the thinking.</p>
-    ◊(if (select-from-metas 'title metas) "" "<p class=\"manifesto-comment\"><a href=\"manifesto.html\"># our manifesto</a></p>")
+    ◊(if (select-from-metas 'title metas) "" "<p class=\"manifesto-comment\"><a href=\"/manifesto\"># our manifesto</a></p>")
   </header>
   <main>
     ◊(->html doc)

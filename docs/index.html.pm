@@ -10,6 +10,14 @@ Founded by ◊link["https://www.linkedin.com/in/robertdurst/"]{Rob Durst} in 202
 
 ◊project["https://caffeine-lang.run/" "Caffeine" "Active Development" "https://caffeine-lang.run/images/temp_caffeine_icon.png" "Gleam" "https://gleam.run/"]{A programming language for generating reliability artifacts from service expectation definitions. Grounded in assume/guarantee contracts, Caffeine helps developers and AI agents assert reasonable system construction at design time ◊em{and} in production. We ◊link["/status"]{dogfood it} here.}
 
+◊h2{Notes}
+
+◊note-list{
+  ◊note["2026-05-31" "/notes/2026-05-31-caffeine-relays.html"]{New Caffeine Feature: Relays}
+}
+
+◊small{◊link["/notes"]{all notes →}}
+
 ◊h2{Speaking}
 
 ◊ul{
