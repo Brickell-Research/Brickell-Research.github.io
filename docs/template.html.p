@@ -39,7 +39,7 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
 </head>
-<body>
+<body class="◊(or (select-from-metas 'body-class metas) "")">
   <header>
     <a href="/"><img src="/brickell_research_logo.png" alt="Brickell Research" class="logo"></a>
     <h1><a href="/">Brickell Research</a></h1>
