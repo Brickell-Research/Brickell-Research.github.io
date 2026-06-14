@@ -5,7 +5,16 @@
 
 (module setup racket/base
   (provide (all-defined-out))
-  (define poly-targets '(html)))
+  (require racket/runtime-path racket/path)
+  (define poly-targets '(html))
+  ;; Pollen's cache keys off each page's mtime, its template, and pollen.rkt —
+  ;; but NOT modules pulled in via ◊(require ...). Watch every project card so
+  ;; editing projects/*.rkt invalidates the cache and the page re-renders.
+  (define-runtime-path projects-dir "projects")
+  (define cache-watchlist
+    (for/list ([f (in-directory projects-dir)]
+               #:when (path-has-extension? f #".rkt"))
+      f)))
 
 ;; Root function — auto-wraps paragraphs
 (define (root . elements)
@@ -38,13 +47,27 @@
 (define (link url . text)
   `(a ((href ,url)) ,@text))
 
-;; Project card
-(define (project url name status img lang lang-url . description)
+;; Project card. Each project lives in its own file under projects/ and calls
+;; this to produce its card; index.html.pm requires those files and drops the
+;; cards in. Description is the rest arg so markup (em, link, …) still works.
+(define (project #:url url
+                 #:name name
+                 #:status status
+                 #:img img
+                 #:lang lang
+                 #:lang-url lang-url
+                 #:adoption [adoption #f]
+                 . description)
   `(div ((class "project"))
      (img ((src ,img) (alt ,name) (class "project-logo")))
      (h3 (a ((href ,url)) ,name))
      (p ((class "project-desc")) ,@description)
-     (p ((class "project-status")) (span ((class "pink")) "Status: ") (em ,status) " · Written in " (a ((href ,lang-url)) ,lang))))
+     (p ((class "project-status"))
+        (span ((class "pink")) "Status: ") (em ,status)
+        ,@(if adoption
+              `(" · " (span ((class "pink")) "Adoption: ") (em ,adoption))
+              '())
+        " · Written in " (a ((href ,lang-url)) ,lang))))
 
 ;; Datadog dashboard embed
 (define (datadog-embed src)
