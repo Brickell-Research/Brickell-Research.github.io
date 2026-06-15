@@ -1,6 +1,6 @@
 #lang pollen
 
-◊(require "projects/caffeine.rkt" "projects/manatee.rkt")
+◊(require "projects/caffeine.rkt")
 
 ◊h2{About}
 
@@ -11,8 +11,6 @@ Founded by ◊link["https://www.linkedin.com/in/robertdurst/"]{Rob Durst} in 202
 ◊h2{Projects}
 
 ◊|caffeine|
-
-◊|manatee|
 
 ◊h2{Notes}
 

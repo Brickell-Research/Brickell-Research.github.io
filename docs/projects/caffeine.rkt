@@ -12,7 +12,7 @@
    #:img      "https://caffeine-lang.run/images/temp_caffeine_icon.png"
    #:lang     "Gleam"
    #:lang-url "https://gleam.run/"
-   #:adoption "Production (industry)"
+   #:adoption "Early users"
    ;; Description — plain strings, with markup as txexprs / link helper:
    "A programming language for generating reliability artifacts from service "
    "expectation definitions. Grounded in assume/guarantee contracts, Caffeine "
