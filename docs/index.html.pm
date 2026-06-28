@@ -1,6 +1,7 @@
 #lang pollen
 
 ◊(require "projects/caffeine.rkt")
+◊(require "projects/footie.rkt")
 
 ◊h2{About}
 
@@ -11,6 +12,8 @@ Founded by ◊link["https://www.linkedin.com/in/robertdurst/"]{Rob Durst} in 202
 ◊h2{Projects}
 
 ◊|caffeine|
+
+◊|footie|
 
 ◊h2{Notes}
 

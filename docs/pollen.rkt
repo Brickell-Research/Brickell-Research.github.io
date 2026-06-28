@@ -55,7 +55,7 @@
                  #:status status
                  #:img img
                  #:lang lang
-                 #:lang-url lang-url
+                 #:lang-url [lang-url #f]
                  #:adoption [adoption #f]
                  . description)
   `(div ((class "project"))
@@ -67,7 +67,8 @@
         ,@(if adoption
               `(" · " (span ((class "pink")) "Adoption: ") (em ,adoption))
               '())
-        " · Written in " (a ((href ,lang-url)) ,lang))))
+        " · Written in "
+        ,(if lang-url `(a ((href ,lang-url)) ,lang) lang))))
 
 ;; Datadog dashboard embed
 (define (datadog-embed src)
