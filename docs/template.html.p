@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>◊(let ([title (select-from-metas 'title metas)]) (if title (format "~a · Brickell Research" title) "Brickell Research"))</title>
-  <meta name="description" content="◊(let ([title (select-from-metas 'title metas)]) (if title (format "~a — Brickell Research" title) "Independent research lab exploring the interaction between system reliability and programming languages."))">
+  <meta name="description" content="◊(let ([title (select-from-metas 'title metas)]) (if title (format "~a · Brickell Research" title) "Independent research lab exploring the interaction between system reliability and programming languages."))">
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="◊(let ([title (select-from-metas 'title metas)]) (if title (format "~a · Brickell Research" title) "Brickell Research"))">

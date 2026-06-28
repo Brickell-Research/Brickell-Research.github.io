@@ -7,7 +7,7 @@
   (provide (all-defined-out))
   (require racket/runtime-path racket/path)
   (define poly-targets '(html))
-  ;; Pollen's cache keys off each page's mtime, its template, and pollen.rkt —
+  ;; Pollen's cache keys off each page's mtime, its template, and pollen.rkt,
   ;; but NOT modules pulled in via ◊(require ...). Watch every project card so
   ;; editing projects/*.rkt invalidates the cache and the page re-renders.
   (define-runtime-path projects-dir "projects")
@@ -16,7 +16,7 @@
                #:when (path-has-extension? f #".rkt"))
       f)))
 
-;; Root function — auto-wraps paragraphs
+;; Root function: auto-wraps paragraphs
 (define (root . elements)
   `(div ,@(decode-elements elements
             #:txexpr-elements-proc decode-paragraphs)))
@@ -87,18 +87,18 @@
 (define (aside-up n . body)
   `(aside ((class "move-up") (style ,(format "--move-up: ~a" n))) ,@body))
 
-;; Figure — clean cyan-framed media. Use for diagrams, screenshots, charts.
+;; Figure: clean cyan-framed media. Use for diagrams, screenshots, charts.
 (define (figure src . caption)
   `(figure (img ((src ,src) (alt "")))
            (figcaption ,@caption)))
 
-;; Sketch — "photo of paper" variant with offset pink-tinted shadow.
+;; Sketch: "photo of paper" variant with offset pink-tinted shadow.
 (define (sketch src . caption)
   `(figure ((class "sketch"))
            (img ((src ,src) (alt "")))
            (figcaption ,@caption)))
 
-;; Video demo — autoplays muted, loops, playsinline. Use for screen recordings.
+;; Video demo: autoplays muted, loops, playsinline. Use for screen recordings.
 (define (video src)
   `(figure (video ((src ,src) (controls "") (playsinline "")
                    (preload "metadata") (muted "") (loop "")))))
@@ -110,7 +110,7 @@
      " · "
      (a ((href "/notes")) "← all notes")))
 
-;; A single entry in a dated note list — used on both /notes and the home page.
+;; A single entry in a dated note list: used on both /notes and the home page.
 (define (note date href . title)
   `(li ((class "note-item"))
        (time ((datetime ,date)) ,date)
@@ -120,11 +120,11 @@
 (define (note-list . items)
   `(ul ((class "note-index")) ,@items))
 
-;; Inline code — for tag names, types, identifiers in prose.
+;; Inline code: for tag names, types, identifiers in prose.
 (define (code . body)
   `(code ,@body))
 
-;; Code block — preserves whitespace and indentation literally.
+;; Code block: preserves whitespace and indentation literally.
 ;; CONVENTION: write the body with leading + trailing newlines, like:
 ;;   ◊code-block{
 ;;   first line of code

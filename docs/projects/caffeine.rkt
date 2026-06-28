@@ -13,7 +13,7 @@
    #:lang     "Gleam"
    #:lang-url "https://gleam.run/"
    #:adoption "Early users"
-   ;; Description — plain strings, with markup as txexprs / link helper:
+   ;; Description: plain strings, with markup as txexprs / link helper:
    "A programming language for generating reliability artifacts from service "
    "expectation definitions. Grounded in assume/guarantee contracts, Caffeine "
    "helps developers and AI agents assert reasonable system construction at "

@@ -451,7 +451,7 @@ body.notebook figure figcaption {
   }
 }
 
-/* Inline code — tag names, types, identifiers inside prose */
+/* Inline code: tag names, types, identifiers inside prose */
 code {
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.85em;
@@ -462,7 +462,7 @@ code {
   border: 1px solid #1a1a2e;
 }
 
-/* Code block — cyan-framed terminal panel */
+/* Code block: cyan-framed terminal panel */
 pre.code-block {
   background: #050510;
   border: 1px solid #1a3a3c;
