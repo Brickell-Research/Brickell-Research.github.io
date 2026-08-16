@@ -1,11 +1,11 @@
 #lang pollen
 
-◊(define-meta title "Non-Determinism Creep")
+◊(define-meta title "Fighting Non-Determinism Creep")
 ◊(define-meta body-class "notebook")
 
 ◊note-meta["2026-06-14"]
 
-◊h2{Non-Determinism Creep}
+◊h2{Fighting Non-Determinism Creep}
 
 Outside of Brickell Research, I hold a day job where I have spent some time working on an important, yet superficially trivial agentic feature. In order to separate this post here from that work, I will make up a scenario that captures the essence of the problem.
 
@@ -94,7 +94,6 @@ Yet this was hardly realistic... right? Consider the above but annotated with th
 
 Each of these can go wrong. Let's now re-organize the non-determinism points based on "stage".
 
-
 ◊ol{
   ◊li{Call: 3x points of non-determinism, original call and 2x extractions. All must be right for correctness.}
   ◊li{Evals: 2x re-interpretations of call result. All must be right for confidence.}
@@ -134,5 +133,3 @@ Thus, we can actually dramatically simplify the non-determinism creep! And hones
 }
 
 In the context of the 2,000 call volume, we now expect only 2 incorrect calls per week! Now we're starting to talk about a reasonably reliable system.
-
-◊h3{A Framework for Tolerance}

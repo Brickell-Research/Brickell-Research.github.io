@@ -1,7 +1,6 @@
 #lang pollen
 
 ◊(require "projects/caffeine.rkt")
-◊(require "projects/footie.rkt")
 
 ◊h2{About}
 
@@ -13,12 +12,10 @@ Founded by ◊link["https://www.linkedin.com/in/robertdurst/"]{Rob Durst} in 202
 
 ◊|caffeine|
 
-◊|footie|
-
 ◊h2{Notes}
 
 ◊note-list{
-  ◊note["2026-06-14" "/notes/2026-06-14-non-determinism-creep.html"]{Non-Determinism Creep}
+  ◊note["2026-06-14" "/notes/2026-06-14-non-determinism-creep.html"]{Fightning Non-Determinism Creep}
 }
 
 ◊small{◊link["/notes"]{all notes →}}
