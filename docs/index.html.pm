@@ -16,6 +16,7 @@ Founded by ◊link["https://www.linkedin.com/in/robertdurst/"]{Rob Durst} in 202
 
 ◊note-list{
   ◊note["2026-06-14" "/notes/2026-06-14-non-determinism-creep.html"]{Fightning Non-Determinism Creep}
+  ◊note["2026-09-23" "/notes/2026-09-23-2027-roadmap.html"]{2027 Roadmap}
 }
 
 ◊small{◊link["/notes"]{all notes →}}

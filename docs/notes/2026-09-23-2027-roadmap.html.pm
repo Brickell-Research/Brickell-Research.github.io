@@ -1,11 +1,11 @@
 #lang pollen
 
-◊(define-meta title "Winter 2026 Roadmap")
+◊(define-meta title "2027 Roadmap")
 ◊(define-meta body-class "notebook")
 
 ◊note-meta["2026-09-23"]
 
-◊h2{Winter 2026 Roadmap}
+◊h2{2027 Roadmap}
 
 As it stands, per the initial use case (and then some), Caffeine is pretty much feature complete. For someone only compiling SLOs to Datadog, we support:
 
@@ -17,5 +17,5 @@ As it stands, per the initial use case (and then some), Caffeine is pretty much 
   ◊li{A reasonable syntax and structure to express measurements and system expectations in.}
 }
 
-Amongst other things, such as the caffeine version manager, that (I hope) makes Caffeine a first class user experience.
-
+Amongst other things, such as the caffeine version manager, that (I hope) makes Caffeine a first class user experience. So where do we go from here? Truth be told I had built just about exactly
+what I had wanted. And I still use it weekly at my day job.
