@@ -18,4 +18,7 @@ As it stands, per the initial use case (and then some), Caffeine is pretty much 
 }
 
 Amongst other things, such as the caffeine version manager, that (I hope) makes Caffeine a first class user experience. So where do we go from here? Truth be told I had built just about exactly
-what I had wanted. And I still use it weekly at my day job.
+what I had wanted. And I still use it weekly at my day job. What more is needed that won't bloat the compiler and will provide more benefit?
+
+If you began to cringe and think "he is about to say AI isn't he..." yes, you're right, but give me a chance.
+
