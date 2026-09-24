@@ -6,4 +6,5 @@
 
 ◊note-list{
   ◊note["2026-06-14" "/notes/2026-06-14-non-determinism-creep.html"]{Fightning Non-Determinism Creep}
+  ◊note["2026-09-23" "/notes/2026-09-23-winter-2026-roadmap.html"]{Winter 2026 Roadmap}
 }
